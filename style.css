@@ -1,11 +1,39 @@
-div{
-    display: grid;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    grid-template-columns: 20% 70%;
+div {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
 }
-header{
+header {
+  border: black 1px solid;
+  border-radius: 4px;
+}
 
+.drake {
+  border: black 1px solid;
+  border-radius: 4px;
+  height: 100px;
 }
-.drake{
-    height: 100px;
+article {
+  border: black 1px solid;
+  border-radius: 4px;
+  margin: 5px;
+}
+main {
+  border: black 1px solid;
+  border-radius: 4px;
+}
+nav {
+  border: black 1px solid;
+  border-radius: 4px;
+}
+h1 {
+  text-align: center;
+}
+main h1 {
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 4px;
 }
